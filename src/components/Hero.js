@@ -16,7 +16,7 @@ const Hero = () => {
                     <div className="animation">
                         <img src={animation} alt="" />
                     </div>
-                    <div className="social-media flex-between-center">
+                    <div className="social-media ">
                         <img src={treehouse} alt="Treehouse Icon" />
                         <img src={orkut} alt="Orkut Icon" />
                         <img src={picasa} alt="picasa Icon" />

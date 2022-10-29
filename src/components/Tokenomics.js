@@ -9,7 +9,7 @@ const Tokenomics = () => {
                 <div className="tokenomics-left">
                     <h2>TOKENOMICS</h2>
                     <h3>8.5% sell tax</h3>
-                    <div className="stats flex-between-center">
+                    <div className="stats flex-center-center">
                         <div className="stat lightpink">
                             <h4>LP</h4>
                             <p>2%</p>

@@ -1,0 +1,36 @@
+.footer-container {
+    margin: 1.25rem auto;
+    margin-top: 4.5rem;
+}
+.footer-left {
+    width: 57%;
+}
+.footer-right {
+    width: 43%;
+}
+.footer-right img {
+    margin-left: -1rem;
+}
+.footer-left h2 {
+    font-size: 2.5rem;
+}
+.footer-left .social-media {
+    margin-top: 3rem;
+}
+.footer-left .border-line {
+    margin-top: 1rem;
+}
+.rights-terms {
+    padding: 3rem 0;
+    padding-right: 2.2rem;
+}
+.footer-description {
+    font-size: 1.3rem;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 28px;
+}
+.copyright {
+    font-weight: 500;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}

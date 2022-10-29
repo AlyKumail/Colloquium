@@ -1,0 +1,58 @@
+.shares-container .container {
+    display: flex;
+    justify-content: flex-between;
+    align-items: center;
+    height: 200px;
+    margin: 2rem auto;
+}
+.share {
+    height: 10%;
+}
+.share1,
+.share2,
+.share3 {
+    height: 100%;
+
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: space-between;
+}
+.share1 .area {
+    background: #7e11be;
+}
+.share2 .area {
+    background: #9a22e0;
+}
+.share3 .area {
+    background: #b536ff;
+}
+.share4 .area {
+    background: #c563ff;
+}
+.share4 {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: space-between;
+}
+.share4 h3,
+.share4 h2 {
+    text-align: center;
+    margin-right: 4rem;
+}
+.share h3 {
+    margin-top: 1.5rem;
+}
+.share h2 {
+    font-size: 1.9rem;
+    margin-top: -0.5rem;
+}
+.area {
+    width: 100%;
+    height: 90px;
+    background: white;
+}
