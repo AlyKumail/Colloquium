@@ -14,13 +14,13 @@
 }
 .daoDetail-item-left p,
 .daoDetail-item-right-rev p {
-    font-size: 1.25rem;
+    font-size: 1.35rem;
     color: rgba(255, 255, 255, 0.5);
     line-height: 30px;
 }
 .daoDetail-item-left h3,
 .daoDetail-item-right-rev h3 {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     margin-bottom: 7px;
 }
 .daoDetail-item-right {
@@ -38,6 +38,15 @@
     min-width: 100%;
     margin-left: -50px;
     z-index: -1;
+}
+.thedao {
+    width: 45% !important;
+}
+.thedao img {
+    height: 350px !important;
+    min-width: 125% !important;
+    margin-left: -130px;
+    opacity: 1;
 }
 .daoDetail-item-left-rev img {
     margin-top: -8rem;
@@ -58,11 +67,15 @@
     margin-top: 1rem;
     color: #000;
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     transition: all 0.25s ease-in-out;
 }
 .greenBtn:hover {
     box-shadow: 0px 0px 15px 0px #000;
+}
+
+.ringImg {
+    height: 400px !important;
 }
 
 @media screen and (max-width: 786px) {
@@ -104,5 +117,14 @@
 
         margin-top: 3rem !important;
         min-width: 70% !important;
+    }
+    .thedao {
+        width: 100% !important;
+    }
+    .thedao img {
+        height: 350px !important;
+        min-width: 10% !important;
+        margin-left: 0px;
+        opacity: 1;
     }
 }

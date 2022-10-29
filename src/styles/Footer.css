@@ -12,7 +12,7 @@
     margin-left: -1rem;
 }
 .footer-left h2 {
-    font-size: 2.5rem;
+    font-size: 2.8rem;
 }
 .footer-left .social-media {
     margin-top: 3rem;
@@ -25,14 +25,14 @@
     padding-right: 2.2rem;
 }
 .footer-description {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     color: rgba(255, 255, 255, 0.7);
     line-height: 28px;
 }
 .copyright {
     font-weight: 500;
     margin-top: 1rem;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 
 @media screen and (max-width: 768px) {

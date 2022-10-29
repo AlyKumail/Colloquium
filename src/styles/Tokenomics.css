@@ -25,13 +25,14 @@
     width: 60%;
     margin: 0 auto;
     text-align: center;
+    font-size: 1.15rem;
 }
 .tokenomics-left h2 {
-    font-size: 3.2rem;
+    font-size: 3.3rem;
     margin-bottom: 1.5rem;
 }
 .tokenomics-left h3 {
-    font-size: 2.2rem;
+    font-size: 2.3rem;
 }
 .stats {
     width: 80%;
@@ -42,14 +43,14 @@
 .stat {
     width: 33%;
     padding: 0.8rem 1.5rem;
-    min-height: 97px;
+    min-height: 102px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .stat h4 {
-    font-size: 1.3rem;
+    font-size: 1.45rem;
 }
 .lightpink {
     background: #c563ff;

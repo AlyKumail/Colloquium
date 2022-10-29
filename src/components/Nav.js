@@ -35,7 +35,7 @@ const Nav = () => {
                     </li>
                 </ul>
                 <a href="#" className="purpleBtn">
-                    Join Telegran
+                    Join Telegram
                 </a>
             </div>
             <div className="container flex-between-center">
@@ -62,7 +62,7 @@ const Nav = () => {
                         </li>
                     </ul>
                     <a href="#" className="purpleBtn">
-                        Join Telegran
+                        Join Telegram
                     </a>
                 </div>
             </div>

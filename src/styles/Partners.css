@@ -3,7 +3,7 @@
     margin-top: 4rem;
 }
 .partners-container h2 {
-    font-size: 1.7rem;
+    font-size: 2.1rem;
 }
 .partners {
     width: 100%;
@@ -12,8 +12,8 @@
 }
 .partners img {
     display: block;
-    max-width: 200px;
-    margin: 0 auto;
+    max-width: 260px;
+    margin: 0 !important;
 }
 @media screen and (max-width: 450px) {
 }

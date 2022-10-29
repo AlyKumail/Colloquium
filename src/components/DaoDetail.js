@@ -1,4 +1,5 @@
 import React from "react";
+import thedao1 from "../images/thedao1.svg";
 import thedao from "../images/thedao.png";
 import globe from "../images/globe.png";
 import Rings from "../images/Rings.png";
@@ -20,8 +21,8 @@ const DaoDetail = () => {
                             on what to do with.
                         </p>
                     </div>
-                    <div className="daoDetail-item-right">
-                        <img src={thedao} alt="" />
+                    <div className=" thedao daoDetail-item-right">
+                        <img className="thedao" src={thedao1} alt="" />
                     </div>
                 </div>
                 <div className="daoDetail-item daoDetail-item-rev flex-between-center">

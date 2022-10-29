@@ -26,7 +26,7 @@
 .someDetail-header h2,
 .someDetail-footer h2 {
     color: var(--green);
-    font-size: 1.8rem;
+    font-size: 2.1rem;
 }
 .someDetail-body {
     margin-top: 3.5rem;
@@ -38,16 +38,17 @@
 
 .someDetail-item h3 {
     font-weight: 700;
-    font-size: 5.5rem;
+    font-size: 6rem;
     color: #383547;
     margin-bottom: -20px;
     margin-left: -5px;
 }
 .someDetail-item h2 {
     margin-bottom: 6px;
+    font-size: 1.9rem;
 }
 .someDetail-item p {
-    font-size: 1.2rem;
+    font-size: 1.35rem;
     line-height: 26.5px;
     display: flex;
     align-items: center;
