@@ -1,0 +1,15 @@
+.gray-container {
+    background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.04) 0%,
+        rgba(255, 255, 255, 0) 100%
+    );
+    border-radius: 80px;
+    padding: 1.5rem 0;
+}
+.border-line {
+    width: 100%;
+    border-top: 1px solid #f4f4f4;
+
+    margin-top: 3rem;
+}

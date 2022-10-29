@@ -1,0 +1,33 @@
+.nav-container {
+    min-height: 10vh;
+}
+.nav-left {
+    width: 45%;
+}
+.nav-right {
+    width: 55%;
+}
+.nav-container img {
+    width: 155px;
+    margin-top: 5px;
+    margin-left: -35px;
+}
+.purpleBtn {
+    display: inline-block;
+    background: #9747ff;
+    padding: 0.8rem 2.25rem;
+    margin-right: 0;
+    margin-left: auto;
+    transition: all 0.2s ease-in-out;
+}
+.purpleBtn:hover {
+    opacity: 0.9;
+}
+.nav-right ul a {
+    margin: 0 1rem;
+    padding: 0.3rem 0.5rem;
+    transition: all 0.2s ease-in-out;
+}
+.nav-right ul a:hover {
+    color: #9747ff;
+}

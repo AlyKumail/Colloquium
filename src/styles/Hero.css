@@ -1,0 +1,28 @@
+.hero-container {
+    min-height: 90vh;
+}
+.hero-container h1 {
+    margin-top: 1rem;
+    font-size: 2.2rem;
+}
+.animation {
+    min-height: 60vh;
+    width: 100%;
+}
+.animation img {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+}
+.social-media img {
+    margin-right: 15px;
+    width: 40px;
+    height: 40px;
+}
+
+@media screen and (max-width: 768px) {
+    .animation img {
+        width: 95%;
+        margin: 2rem auto;
+    }
+}

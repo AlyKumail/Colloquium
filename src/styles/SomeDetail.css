@@ -1,0 +1,64 @@
+.someDetail-header {
+    margin-top: 1rem;
+}
+.someDetail-header .grayBtn {
+    display: block;
+    background: #383547;
+    border-radius: 5px;
+    padding: 1rem 2.25rem;
+    margin-right: 0;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    transition: all 0.25s ease-in-out;
+}
+.someDetail-header .grayBtn:hover {
+    box-shadow: 0px 0px 8px 0px var(--purple);
+}
+.someDetail-header .grayBtn img {
+    width: 32px;
+    margin-right: 5px;
+}
+.someDetail-header .grayBtn span {
+    font-size: 1.15rem;
+    font-weight: 700;
+}
+.someDetail-header h2,
+.someDetail-footer h2 {
+    color: var(--green);
+    font-size: 1.8rem;
+}
+.someDetail-body {
+    margin-top: 3.5rem;
+}
+.someDetail-item {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.someDetail-item h3 {
+    font-weight: 700;
+    font-size: 5.5rem;
+    color: #383547;
+    margin-bottom: -20px;
+    margin-left: -5px;
+}
+.someDetail-item h2 {
+    margin-bottom: 6px;
+}
+.someDetail-item p {
+    font-size: 1.2rem;
+    line-height: 26.5px;
+    display: flex;
+    align-items: center;
+
+    color: rgba(255, 255, 255, 0.5);
+}
+.someDetail-footer {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.someDetail-footer h3 {
+    font-size: 2.15rem;
+}
