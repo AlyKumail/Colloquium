@@ -19,10 +19,38 @@
     width: 40px;
     height: 40px;
 }
-
+@media screen and (max-width: 1025px) {
+    .animation {
+        min-height: 50vh;
+        width: 100%;
+    }
+}
 @media screen and (max-width: 768px) {
+    .hero-container {
+        min-height: 75vh;
+    }
     .animation img {
         width: 95%;
         margin: 2rem auto;
+        min-height: 48vh;
+    }
+    .animation {
+        min-height: 40vh;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 450px) {
+    .hero-container {
+        min-height: 70vh;
+        margin-bottom: 1rem;
+    }
+    .animation img {
+        width: 95%;
+        margin: 2rem auto;
+        min-height: 35vh;
+    }
+    .animation {
+        min-height: 40vh;
+        width: 100%;
     }
 }

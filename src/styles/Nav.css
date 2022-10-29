@@ -1,6 +1,9 @@
 .nav-container {
     min-height: 10vh;
 }
+.nav-container .container {
+    position: relative;
+}
 .nav-left {
     width: 45%;
 }
@@ -30,4 +33,88 @@
 }
 .nav-right ul a:hover {
     color: #9747ff;
+}
+
+.hamburger {
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    width: 25px !important;
+    height: 19px;
+    display: none;
+    cursor: pointer;
+}
+.mobileNav {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #333;
+    z-index: 99;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+    display: none;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.mobileNav li {
+    margin: 1.5rem 0;
+}
+.mobileNav .purpleBtn {
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+.mobileNav img {
+    position: absolute;
+    top: 10px;
+    left: 25px;
+}
+
+@media screen and (max-width: 1025px) {
+    .nav-left {
+        width: 40%;
+    }
+    .nav-right {
+        width: 60%;
+    }
+    .purpleBtn {
+        padding: 0.8rem 2rem;
+    }
+    .nav-right a {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 875px) {
+    .nav-left {
+        width: 30%;
+    }
+    .nav-right {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .nav-left {
+        width: 35%;
+    }
+    .nav-right {
+        width: 65%;
+    }
+    .hamburger {
+        display: block;
+        z-index: 99;
+    }
+    #navbar {
+        display: none;
+    }
+    .mobileNav {
+        height: 100vh;
+        overflow-y: hidden;
+    }
 }

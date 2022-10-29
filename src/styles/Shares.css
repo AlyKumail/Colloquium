@@ -56,3 +56,21 @@
     height: 90px;
     background: white;
 }
+
+@media screen and (max-width: 768px) {
+    .share1,
+    .share2,
+    .share3 {
+        width: 15%;
+    }
+    .share1 h3,
+    .share2 h3,
+    .share3 h3 {
+        font-size: 0.7rem;
+        max-width: 100%;
+        margin-right: 25px;
+    }
+    .share h2 {
+        font-size: 0.9rem;
+    }
+}

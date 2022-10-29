@@ -62,3 +62,20 @@
 .someDetail-footer h3 {
     font-size: 2.15rem;
 }
+
+@media screen and (max-width: 768px) {
+    .someDetail-header {
+        flex-direction: column;
+    }
+    .someDetail-header .grayBtn {
+        margin: 0 auto;
+        margin-top: 1rem;
+    }
+    .someDetail-body {
+        flex-direction: column;
+    }
+    .someDetail-item {
+        width: 90%;
+        margin: 1rem auto;
+    }
+}

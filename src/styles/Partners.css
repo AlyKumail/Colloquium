@@ -8,9 +8,12 @@
 .partners {
     width: 100%;
     flex-wrap: wrap;
-    margin: 1.5rem 0;
+    margin: 1.5rem auto;
 }
 .partners img {
     display: block;
     max-width: 200px;
+    margin: 0 auto;
+}
+@media screen and (max-width: 450px) {
 }

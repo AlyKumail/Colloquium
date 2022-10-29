@@ -14,3 +14,13 @@
 .tokenInfo-item h2 {
     font-size: 1.75rem;
 }
+
+@media screen and (max-width: 768px) {
+    .tokenInfo-container .container {
+        flex-direction: column;
+    }
+    .tokenInfo-item {
+        width: 80%;
+        margin: 1rem auto;
+    }
+}

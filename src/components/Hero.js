@@ -17,10 +17,18 @@ const Hero = () => {
                         <img src={animation} alt="" />
                     </div>
                     <div className="social-media ">
-                        <img src={treehouse} alt="Treehouse Icon" />
-                        <img src={orkut} alt="Orkut Icon" />
-                        <img src={picasa} alt="picasa Icon" />
-                        <img src={twitter} alt="twitter Icon" />
+                        <a href="#">
+                            <img src={treehouse} alt="Treehouse Icon" />
+                        </a>
+                        <a href="#">
+                            <img src={orkut} alt="Orkut Icon" />
+                        </a>
+                        <a href="#">
+                            <img src={picasa} alt="picasa Icon" />
+                        </a>
+                        <a href="#">
+                            <img src={twitter} alt="twitter Icon" />
+                        </a>
                     </div>
                 </h1>
             </div>

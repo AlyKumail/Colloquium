@@ -19,13 +19,24 @@ const Footer = () => {
                         An exclusive DAO focused on pushing the boundaries of
                         web3
                     </h2>
-                    <div className="social-media ">
-                        <img src={treehouse} alt="Treehouse Icon" />
-                        <img src={orkut} alt="Orkut Icon" />
-                        <img src={picasa} alt="picasa Icon" />
-                        <img src={twitter} alt="twitter Icon" />
-                        <img src={github} alt="github Icon" />
+                    <div className="social-media">
+                        <a href="#">
+                            <img src={treehouse} alt="Treehouse Icon" />
+                        </a>
+                        <a href="#">
+                            <img src={orkut} alt="Orkut Icon" />
+                        </a>
+                        <a href="#">
+                            <img src={picasa} alt="picasa Icon" />
+                        </a>
+                        <a href="#">
+                            <img src={twitter} alt="twitter Icon" />
+                        </a>
+                        <a href="#">
+                            <img src={github} alt="github Icon" />
+                        </a>
                     </div>
+
                     <div className="border-line"></div>
                     <div className="site-rights flex-between-center">
                         <img src={logo} alt="" />

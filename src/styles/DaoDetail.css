@@ -35,8 +35,8 @@
 .daoDetail-item-right img {
     display: block;
     height: 250px;
-    min-width: 700px;
-    margin-left: -110px;
+    min-width: 100%;
+    margin-left: -50px;
     z-index: -1;
 }
 .daoDetail-item-left-rev img {
@@ -63,4 +63,46 @@
 }
 .greenBtn:hover {
     box-shadow: 0px 0px 15px 0px #000;
+}
+
+@media screen and (max-width: 786px) {
+    .daoDetail-item {
+        flex-direction: column;
+        margin: 5rem auto;
+    }
+    .daoDetail-item img {
+        margin-top: 2rem;
+    }
+
+    .daoDetail-item-left {
+        width: 90%;
+        z-index: 1;
+    }
+    .daoDetail-item-left-rev {
+        width: 90%;
+        z-index: 1;
+    }
+    .daoDetail-item-right,
+    .daoDetail-item-right-rev {
+        width: 90%;
+    }
+    .daoDetail-item-right img {
+        display: block;
+        height: 250px;
+        min-width: 100%;
+        margin-left: 0px;
+        z-index: -1;
+    }
+    .daoDetail-item-rev {
+        flex-direction: column-reverse;
+    }
+    .theGoalImg {
+        margin-top: -4rem !important;
+    }
+    .ringImg {
+        margin: 0 auto !important;
+
+        margin-top: 3rem !important;
+        min-width: 70% !important;
+    }
 }

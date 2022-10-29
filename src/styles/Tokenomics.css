@@ -42,7 +42,7 @@
 .stat {
     width: 33%;
     padding: 0.8rem 1.5rem;
-    min-height: 95px;
+    min-height: 97px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -59,4 +59,36 @@
 }
 .darkpink {
     background: #9a22e0;
+}
+
+@media screen and (max-width: 768px) {
+    .tokenomics-container .container {
+        flex-direction: column;
+    }
+    .tokenomics-left,
+    .tokenomics-right {
+        width: 100%;
+        margin: 1rem auto;
+    }
+    .tokenomics-left {
+        margin-bottom: 2rem;
+    }
+    .tokenomics-right p {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .tokenomics-left p {
+        font-size: 1rem;
+    }
+    .tokenomics-left h4 {
+        font-size: 1rem;
+    }
+    .tokenomics-left h2 {
+        font-size: 2.4rem;
+        margin-bottom: 1rem;
+    }
+    .tokenomics-left h3 {
+        font-size: 1.8rem;
+    }
 }

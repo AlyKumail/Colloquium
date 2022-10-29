@@ -24,9 +24,9 @@ const DaoDetail = () => {
                         <img src={thedao} alt="" />
                     </div>
                 </div>
-                <div className="daoDetail-item flex-between-center">
+                <div className="daoDetail-item daoDetail-item-rev flex-between-center">
                     <div className="daoDetail-item-left-rev">
-                        <img src={globe} alt="" />
+                        <img className="theGoalImg" src={globe} alt="" />
                     </div>
                     <div className="daoDetail-item-right-rev">
                         <h3>The GOAL</h3>
@@ -57,7 +57,7 @@ const DaoDetail = () => {
                         </a>
                     </div>
                     <div className="daoDetail-item-right">
-                        <img src={Rings} alt="" />
+                        <img className="ringImg" src={Rings} alt="" />
                     </div>
                 </div>
             </div>
