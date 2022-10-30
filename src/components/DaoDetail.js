@@ -1,5 +1,5 @@
 import React from "react";
-import thedao1 from "../images/thedao1.svg";
+import thedao1 from "../images/thedao.svg";
 import thedao from "../images/thedao.png";
 import globe from "../images/globe.png";
 import Rings from "../images/Rings.png";
@@ -13,12 +13,12 @@ const DaoDetail = () => {
                     <div className="daoDetail-item-left">
                         <h3>The DAO</h3>
                         <p>
-                            The DAO A Dao is a decentralized autonomous
-                            organization, a type of bottom-up entity structure
-                            with no central authority, meaning token holders
-                            make the decisions. With the ICO and sell taxes, the
-                            DAO will raise revenue that ultimately YOU will vote
-                            on what to do with.
+                            A Dao is a decentralized autonomous organization, a
+                            type of bottom-up entity structure with no central
+                            authority, meaning token holders make the decisions.
+                            With the ICO and sell taxes, the DAO will raise
+                            revenue that ultimately YOU will vote on what to do
+                            with.
                         </p>
                     </div>
                     <div className=" thedao daoDetail-item-right">

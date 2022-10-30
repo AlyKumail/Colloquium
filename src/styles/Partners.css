@@ -7,13 +7,23 @@
 }
 .partners {
     width: 100%;
+    display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
     margin: 1.5rem auto;
 }
 .partners img {
     display: block;
-    max-width: 260px;
+    flex: 1fr;
     margin: 0 !important;
+}
+@media screen and (max-width: 1822px) {
+}
+@media screen and (max-width: 1708px) {
+}
+@media screen and (max-width: 1518px) {
+}
+@media screen and (max-width: 1366px) {
 }
 @media screen and (max-width: 450px) {
 }

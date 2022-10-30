@@ -1,32 +1,33 @@
 .someDetail-header {
-    margin-top: 1rem;
+    margin-top: 2.2rem;
 }
 .someDetail-header .grayBtn {
     display: block;
     background: #383547;
     border-radius: 5px;
-    padding: 1rem 2.25rem;
+    padding: 1.8rem 2.2rem;
     margin-right: 0;
     margin-left: auto;
     display: flex;
     align-items: center;
     transition: all 0.25s ease-in-out;
 }
+
 .someDetail-header .grayBtn:hover {
     box-shadow: 0px 0px 8px 0px var(--purple);
 }
 .someDetail-header .grayBtn img {
     width: 32px;
-    margin-right: 5px;
+    margin-right: 7px;
 }
 .someDetail-header .grayBtn span {
-    font-size: 1.15rem;
+    font-size: 1.85rem;
     font-weight: 700;
 }
 .someDetail-header h2,
 .someDetail-footer h2 {
     color: var(--green);
-    font-size: 2.1rem;
+    font-size: 3.1rem;
 }
 .someDetail-body {
     margin-top: 3.5rem;
@@ -38,18 +39,18 @@
 
 .someDetail-item h3 {
     font-weight: 700;
-    font-size: 6rem;
+    font-size: 8rem;
     color: #383547;
     margin-bottom: -20px;
     margin-left: -5px;
 }
 .someDetail-item h2 {
     margin-bottom: 6px;
-    font-size: 1.9rem;
+    font-size: 2.7rem;
 }
 .someDetail-item p {
-    font-size: 1.35rem;
-    line-height: 26.5px;
+    font-size: 2rem;
+    line-height: 39px;
     display: flex;
     align-items: center;
 
@@ -62,6 +63,93 @@
 
 .someDetail-footer h3 {
     font-size: 2.15rem;
+}
+
+@media screen and (max-width: 1822px) {
+    .someDetail-header h2,
+    .someDetail-footer h2 {
+        font-size: 2.7rem;
+    }
+    .someDetail-item h3 {
+        font-size: 6.5rem;
+    }
+    .someDetail-header .grayBtn span {
+        font-size: 1.6rem;
+        font-weight: 700;
+    }
+    .someDetail-item h2 {
+        font-size: 2.5rem;
+    }
+    .someDetail-item p {
+        font-size: 1.75rem;
+        line-height: 36px;
+    }
+}
+@media screen and (max-width: 1708px) {
+    .someDetail-header h2,
+    .someDetail-footer h2 {
+        font-size: 2.5rem;
+    }
+    .someDetail-item h3 {
+        font-size: 5.5rem;
+    }
+    .someDetail-header .grayBtn span {
+        font-size: 1.45rem;
+        font-weight: 700;
+    }
+    .someDetail-item h2 {
+        font-size: 2.4rem;
+    }
+    .someDetail-item p {
+        font-size: 1.65rem;
+        line-height: 33px;
+    }
+}
+@media screen and (max-width: 1518px) {
+    .someDetail-header h2,
+    .someDetail-footer h2 {
+        font-size: 2.3rem;
+    }
+    .someDetail-item h3 {
+        font-size: 5rem;
+    }
+    .someDetail-header .grayBtn {
+        padding: 1.7rem 1.9rem;
+    }
+    .someDetail-header .grayBtn span {
+        font-size: 1.28rem;
+        font-weight: 700;
+    }
+    .someDetail-item h2 {
+        font-size: 2.1rem;
+    }
+    .someDetail-item p {
+        font-size: 1.4rem;
+        line-height: 30px;
+    }
+}
+@media screen and (max-width: 1366px) {
+    .someDetail-header h2,
+    .someDetail-footer h2 {
+        font-size: 2.1rem;
+    }
+    .someDetail-item h3 {
+        font-size: 4.25rem;
+    }
+    .someDetail-header .grayBtn {
+        padding: 1.6rem 1.5rem;
+    }
+    .someDetail-header .grayBtn span {
+        font-size: 1.15rem;
+        font-weight: 700;
+    }
+    .someDetail-item h2 {
+        font-size: 1.8rem;
+    }
+    .someDetail-item p {
+        font-size: 1.25rem;
+        line-height: 26px;
+    }
 }
 
 @media screen and (max-width: 768px) {

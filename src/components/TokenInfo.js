@@ -7,7 +7,7 @@ const TokenInfo = () => {
             <div className="container flex-between-center">
                 <div className="tokenInfo-item">
                     <h3>Team Tokens</h3>
-                    <h2>100k TOKENS</h2>
+                    <h2>1 M TOKENS</h2>
                 </div>
                 <div className="tokenInfo-item">
                     <h3>Token Distribution</h3>

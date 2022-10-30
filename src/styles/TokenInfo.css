@@ -4,15 +4,50 @@
 .tokenInfo-item {
     background: #29243a;
     border-radius: 20px;
-    padding: 2.2rem 1.8rem;
+    padding: 2.2rem 2rem;
     width: 23.2%;
 }
 .tokenInfo-item h3 {
     color: rgba(255, 255, 255, 0.7);
-    font-size: 1.5rem;
+    font-size: 2.1rem;
+    font-weight: 400;
+    margin-bottom: 5px;
 }
 .tokenInfo-item h2 {
-    font-size: 2rem;
+    font-size: 3.2rem;
+}
+
+@media screen and (max-width: 1822px) {
+    .tokenInfo-item h3 {
+        font-size: 1.8rem;
+    }
+    .tokenInfo-item h2 {
+        font-size: 2.7rem;
+    }
+}
+@media screen and (max-width: 1708px) {
+    .tokenInfo-item h3 {
+        font-size: 1.7rem;
+    }
+    .tokenInfo-item h2 {
+        font-size: 2.6rem;
+    }
+}
+@media screen and (max-width: 1518px) {
+    .tokenInfo-item h3 {
+        font-size: 1.4rem;
+    }
+    .tokenInfo-item h2 {
+        font-size: 2.35rem;
+    }
+}
+@media screen and (max-width: 1366px) {
+    .tokenInfo-item h3 {
+        font-size: 1.2rem;
+    }
+    .tokenInfo-item h2 {
+        font-size: 1.9rem;
+    }
 }
 
 @media screen and (max-width: 768px) {
