@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/SomeDetail.css";
 import telegram from "../images/telegram.png";
+import someDetailImg from "../images/someDetail-item.png";
 
 const SomeDetail = () => {
     return (
@@ -16,7 +17,10 @@ const SomeDetail = () => {
                 <div className="someDetail-body flex-between-start">
                     <div className="someDetail-item">
                         <h3>01</h3>
-                        <h2>What blockchain ?</h2>
+                        <h2>
+                            {" "}
+                            <img src={someDetailImg} alt="" /> What blockchain ?
+                        </h2>
                         <p>
                             Colloquium is a goverence token built on top of the
                             ethereum blockchain.
@@ -24,7 +28,9 @@ const SomeDetail = () => {
                     </div>
                     <div className="someDetail-item">
                         <h3>02</h3>
-                        <h2>ICO</h2>
+                        <h2>
+                            <img src={someDetailImg} alt="" /> ICO
+                        </h2>
                         <p>
                             An initial coin offering (ICO) is the cryptocurrency
                             industry’s equivalent of an initial public offering
@@ -36,7 +42,9 @@ const SomeDetail = () => {
                     </div>
                     <div className="someDetail-item">
                         <h3>03</h3>
-                        <h2>How can I join ? </h2>
+                        <h2>
+                            <img src={someDetailImg} alt="" /> How can I join ?{" "}
+                        </h2>
                         <p>
                             Join the Telegram ! we’d love to have you, we’re
                             building a strong community before launch, so you

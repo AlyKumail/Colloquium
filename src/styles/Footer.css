@@ -115,6 +115,12 @@
         flex-direction: column;
         margin-top: 0.7rem;
     }
+    .site-rights img {
+        width: 50%;
+    }
+    .footer-container .social-media {
+        margin: 0;
+    }
     .footer-left,
     .footer-right {
         width: 95%;

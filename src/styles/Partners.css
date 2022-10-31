@@ -1,6 +1,7 @@
 .partners-container {
     width: 100%;
     margin-top: 4rem;
+    margin-bottom: 6rem;
 }
 .partners-container h2 {
     font-size: 2.1rem;
@@ -9,12 +10,11 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
     margin: 1.5rem auto;
 }
 .partners img {
     display: block;
-    flex: 1fr;
+    width: 20%;
     margin: 0 !important;
 }
 @media screen and (max-width: 1822px) {

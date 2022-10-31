@@ -5,8 +5,34 @@
     margin-top: 1.85rem;
     /* font-size: 2.4rem; 1366 */
     font-size: 4.2rem;
+    margin-bottom: 1.85rem;
 
+    width: 90%;
+}
+.hero-wrap {
+    min-height: 80vh;
+}
+.hero-left,
+.hero-right {
     width: 50%;
+}
+.hero-left p {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 39px;
+    margin-bottom: 1.9rem;
+    width: 60%;
+    color: rgba(255, 255, 255, 0.5);
+}
+.purpleBtn {
+    background: linear-gradient(95.36deg, #772598 21.87%, #2c466c 78.99%);
+    border-radius: 60px;
+}
+.hero-wrap .purpleBtn {
+    padding: 1.3rem 5.1rem;
+    font-weight: 400;
 }
 .animation {
     min-height: 60vh;
@@ -14,8 +40,8 @@
 }
 .animation img {
     display: block;
-    width: 70%;
-    margin: 0 auto;
+    width: 100%;
+    margin: 4rem auto;
 }
 .social-media {
     margin-top: 15px;
@@ -23,8 +49,12 @@
 }
 .social-media img {
     margin-right: 15px;
-    width: 78px;
-    height: 78px;
+    width: 60px;
+    height: 58px;
+    margin-bottom: 3rem;
+}
+.hero-container .social-media img {
+    margin-right: 4rem;
 }
 
 @media screen and (max-width: 1822px) {
@@ -35,6 +65,12 @@
         width: 70px;
         height: 70px;
     }
+    .social-media img {
+        margin-right: 15px;
+        width: 55px;
+        height: 53px;
+        margin-bottom: 3rem;
+    }
 }
 @media screen and (max-width: 1708px) {
     .hero-container h1 {
@@ -43,6 +79,12 @@
     .social-media img {
         width: 65px;
         height: 65px;
+    }
+    .social-media img {
+        margin-right: 15px;
+        width: 51px;
+        height: 49px;
+        margin-bottom: 3rem;
     }
 }
 @media screen and (max-width: 1518px) {
@@ -53,6 +95,22 @@
         width: 60px;
         height: 60px;
     }
+    .hero-left p {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 23px;
+        line-height: 34px;
+        margin-bottom: 1.9rem;
+        width: 60%;
+        color: rgba(255, 255, 255, 0.5);
+    }
+    .social-media img {
+        margin-right: 15px;
+        width: 47px;
+        height: 45px;
+        margin-bottom: 3rem;
+    }
 }
 @media screen and (max-width: 1366px) {
     .hero-container h1 {
@@ -61,6 +119,26 @@
     .social-media img {
         width: 52px;
         height: 52px;
+    }
+    .hero-left p {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 28px;
+        margin-bottom: 1.9rem;
+        width: 60%;
+        color: rgba(255, 255, 255, 0.5);
+    }
+    .hero-wrap .purpleBtn {
+        padding: 1.1rem 4rem;
+        font-weight: 400;
+    }
+    .social-media img {
+        margin-right: 15px;
+        width: 44px;
+        height: 42px;
+        margin-bottom: 3rem;
     }
 }
 
@@ -73,6 +151,18 @@
 @media screen and (max-width: 768px) {
     .hero-container {
         min-height: 75vh;
+    }
+    .hero-wrap {
+        min-height: 80vh;
+        flex-direction: column;
+    }
+    .hero-left,
+    .hero-right {
+        width: 95%;
+        margin: 0 auto;
+    }
+    .hero-left p {
+        width: 100%;
     }
     .animation img {
         width: 95%;

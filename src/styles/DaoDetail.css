@@ -1,8 +1,12 @@
 .daoDetail-container {
     margin: 8rem 0;
+    margin-top: 3rem;
 }
 .daoDetail-item {
-    margin: 4rem 0;
+    margin: 2rem 0;
+}
+.thedaoItem {
+    margin-bottom: -7rem !important;
 }
 .daoDetail-item-left {
     width: 55%;
@@ -41,12 +45,17 @@
 }
 .thedao {
     width: 45% !important;
+
+    height: 520px;
 }
 .thedao img {
-    height: 350px !important;
+    /*height: 350px !important;
     min-width: 125% !important;
     margin-left: -130px;
-    opacity: 1;
+    opacity: 1;*/
+    width: 80% !important;
+    height: 100%;
+    padding: 0 2rem;
 }
 .daoDetail-item-left-rev img {
     margin-top: -8rem;
@@ -92,6 +101,11 @@
     .greenBtn {
         padding: 1.5rem 6rem;
         font-size: 1.9rem;
+    }
+    .thedao {
+        width: 45% !important;
+
+        height: 470px;
     }
 }
 @media screen and (max-width: 1708px) {
@@ -141,12 +155,17 @@
         padding: 1.4rem 5rem;
         font-size: 1.3rem;
     }
+    .thedao {
+        width: 45% !important;
+
+        height: 430px;
+    }
 }
 
 @media screen and (max-width: 786px) {
     .daoDetail-item {
         flex-direction: column;
-        margin: 5rem auto;
+        margin: 2rem auto;
     }
     .daoDetail-item img {
         margin-top: 2rem;
@@ -179,17 +198,18 @@
     }
     .ringImg {
         margin: 0 auto !important;
-
+        height: 260px !important;
         margin-top: 3rem !important;
-        min-width: 70% !important;
+        min-width: 90% !important;
     }
     .thedao {
         width: 100% !important;
     }
     .thedao img {
-        height: 350px !important;
+        height: 280px !important;
         min-width: 10% !important;
         margin-left: 0px;
         opacity: 1;
+        margin: 0 auto;
     }
 }

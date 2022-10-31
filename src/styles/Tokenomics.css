@@ -160,6 +160,9 @@
 }
 
 @media screen and (max-width: 768px) {
+    .tokenomics-container {
+        margin: 0rem 0;
+    }
     .tokenomics-container .container {
         flex-direction: column;
     }

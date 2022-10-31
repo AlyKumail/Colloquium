@@ -1,5 +1,5 @@
 import React from "react";
-import thedao1 from "../images/thedao.svg";
+import thedao1 from "../images/thedaiomg.png";
 import thedao from "../images/thedao.png";
 import globe from "../images/globe.png";
 import Rings from "../images/Rings.png";
@@ -9,8 +9,8 @@ const DaoDetail = () => {
     return (
         <div className="daoDetail-container">
             <div className="container">
-                <div className="daoDetail-item flex-between-center">
-                    <div className="daoDetail-item-left">
+                <div className="thedaoItem daoDetail-item flex-between-center">
+                    <div className=" daoDetail-item-left">
                         <h3>The DAO</h3>
                         <p>
                             A Dao is a decentralized autonomous organization, a
