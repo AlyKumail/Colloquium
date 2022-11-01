@@ -31,11 +31,11 @@ const Hero = () => {
                 </div>
 
                 <div className="social-media ">
-                    <a href="#">
+                    <a href="https://t.me/colloquiumdao">
                         <img src={telegram} alt="Treehouse Icon" />
                     </a>
 
-                    <a href="#">
+                    <a href="https://twitter.com/colloquiumdao/status/1587141687192731649?s=46&t=KGeemDh07b7mQGU4ybdZuw">
                         <img src={twitter} alt="twitter Icon" />
                     </a>
                 </div>

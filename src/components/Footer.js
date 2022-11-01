@@ -29,7 +29,7 @@ const Footer = () => {
                         <a href="#">
                             <img src={picasa} alt="picasa Icon" />
                         </a>
-                        <a href="#">
+                        <a href="https://twitter.com/colloquiumdao/status/1587141687192731649?s=46&t=KGeemDh07b7mQGU4ybdZuw">
                             <img src={twitter} alt="twitter Icon" />
                         </a>
                         <a href="#">

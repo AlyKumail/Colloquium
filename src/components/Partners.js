@@ -15,7 +15,6 @@ const Partners = () => {
                     <img src={kraken} alt="kraken" />
                     <img src={bitbank} alt="bitbank" />
                     <img src={binance} alt="binance" />
-                    <img src={kraken} alt="kraken" />
                     <img src={coinbase} alt="coinbase" />
                 </div>
             </div>
