@@ -172,3 +172,13 @@
         margin: 1rem auto;
     }
 }
+
+@media screen and (max-width: 450px) {
+    .someDetail-header {
+        flex-direction: column;
+        padding-top: 2rem;
+    }
+    .someDetail-header h2 {
+        font-size: 2rem;
+    }
+}

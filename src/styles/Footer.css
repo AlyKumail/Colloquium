@@ -138,3 +138,12 @@
         padding-right: 0;
     }
 }
+
+@media screen and (max-width: 450px) {
+    .footer-container .social-media {
+        margin: 2rem 0;
+    }
+    .site-rights img {
+        width: 67%;
+    }
+}
