@@ -49,18 +49,19 @@ const Nav = () => {
                 <div className="nav-left">
                     <img src={logo} alt="" />
                 </div>
-                <div id="navbar" className="nav-right flex-between-center">
-                    <ul className=" flex-between-center">
-                        <li>
-                            <a href="#">About</a>
-                        </li>
-                        <li>
-                            <a href="#">Tokenomics</a>
-                        </li>
-                        <li>
-                            <a href="#">Social</a>
-                        </li>
-                    </ul>
+
+                <ul id="navbar" className="flex-between-center">
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Tokenomics</a>
+                    </li>
+                    <li>
+                        <a href="#">Social</a>
+                    </li>
+                </ul>
+                <div id="navBtn">
                     <a href="#" className="purpleBtn">
                         Join Telegram
                     </a>

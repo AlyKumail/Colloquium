@@ -21,6 +21,9 @@
 .footer-left .social-media {
     margin-top: 3rem;
 }
+.footer-left .social-media a {
+    margin-right: 2.5rem;
+}
 .footer-left .border-line {
     margin-top: 1rem;
 }

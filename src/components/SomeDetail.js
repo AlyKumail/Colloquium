@@ -19,7 +19,8 @@ const SomeDetail = () => {
                         <h3>01</h3>
                         <h2>
                             {" "}
-                            <img src={someDetailImg} alt="" /> What blockchain ?
+                            <img src={someDetailImg} alt="" />
+                            &nbsp; What blockchain ?
                         </h2>
                         <p>
                             Colloquium is a goverence token built on top of the
@@ -29,7 +30,8 @@ const SomeDetail = () => {
                     <div className="someDetail-item">
                         <h3>02</h3>
                         <h2>
-                            <img src={someDetailImg} alt="" /> ICO
+                            <img src={someDetailImg} alt="" />
+                            &nbsp; ICO
                         </h2>
                         <p>
                             An initial coin offering (ICO) is the cryptocurrency
@@ -43,7 +45,8 @@ const SomeDetail = () => {
                     <div className="someDetail-item">
                         <h3>03</h3>
                         <h2>
-                            <img src={someDetailImg} alt="" /> How can I join ?{" "}
+                            <img src={someDetailImg} alt="" />
+                            &nbsp; How can I join ?{" "}
                         </h2>
                         <p>
                             Join the Telegram ! we’d love to have you, we’re

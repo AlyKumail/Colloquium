@@ -27,7 +27,7 @@
 .someDetail-header h2,
 .someDetail-footer h2 {
     color: var(--green);
-    font-size: 3.1rem;
+    font-size: 2.6rem;
 }
 .someDetail-body {
     margin-top: 3.5rem;
@@ -43,14 +43,14 @@
 
 .someDetail-item h3 {
     font-weight: 700;
-    font-size: 8rem;
+    font-size: 7rem;
     color: #383547;
-    margin-bottom: -20px;
+    margin-bottom: -26px;
     margin-left: -5px;
 }
 .someDetail-item h2 {
     margin-bottom: 6px;
-    font-size: 2.7rem;
+    font-size: 2.4rem;
 }
 .someDetail-item p {
     font-size: 2rem;
@@ -66,13 +66,14 @@
 }
 
 .someDetail-footer h3 {
-    font-size: 2.15rem;
+    font-size: 3rem;
+    margin-bottom: 5rem;
 }
 
 @media screen and (max-width: 1822px) {
     .someDetail-header h2,
     .someDetail-footer h2 {
-        font-size: 2.7rem;
+        font-size: 2.5rem;
     }
     .someDetail-item h3 {
         font-size: 6.5rem;
@@ -92,7 +93,7 @@
 @media screen and (max-width: 1708px) {
     .someDetail-header h2,
     .someDetail-footer h2 {
-        font-size: 2.5rem;
+        font-size: 2.3rem;
     }
     .someDetail-item h3 {
         font-size: 5.5rem;
@@ -112,7 +113,7 @@
 @media screen and (max-width: 1518px) {
     .someDetail-header h2,
     .someDetail-footer h2 {
-        font-size: 2.3rem;
+        font-size: 2.1rem;
     }
     .someDetail-item h3 {
         font-size: 5rem;
@@ -131,11 +132,15 @@
         font-size: 1.4rem;
         line-height: 30px;
     }
+    .someDetail-footer h3 {
+        font-size: 2.5rem;
+        margin-bottom: 4rem;
+    }
 }
 @media screen and (max-width: 1366px) {
     .someDetail-header h2,
     .someDetail-footer h2 {
-        font-size: 2.1rem;
+        font-size: 1.9rem;
     }
     .someDetail-item h3 {
         font-size: 4.25rem;
@@ -153,6 +158,10 @@
     .someDetail-item p {
         font-size: 1.25rem;
         line-height: 26px;
+    }
+    .someDetail-footer h3 {
+        font-size: 2.2rem;
+        margin-bottom: 3rem;
     }
 }
 

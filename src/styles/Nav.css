@@ -1,18 +1,18 @@
 .nav-container {
     min-height: 10vh;
+    padding-top: 2rem;
 }
 .nav-container .container {
     position: relative;
 }
 .nav-left {
-    width: 45%;
 }
 .nav-right {
     width: 55%;
 }
 .nav-container img {
     /* width: 190px; 1336px */
-    width: 290px;
+    width: 205px;
     /* width: 190px; 1336px */
     /* width: 190px; 1336px */
     margin-top: 10px;
@@ -32,15 +32,30 @@
 .purpleBtn:hover {
     opacity: 0.9;
 }
-.nav-right ul a {
+.nav-container ul,
+.nav-left,
+#navBtn {
+    width: 30%;
+}
+#navBtn {
+    display: flex;
+}
+#navBtn a {
+    border-radius: 5px;
+    padding: 1.65rem 4.25rem;
+}
+.nav-container ul {
+    justify-content: flex-start !important;
+}
+.nav-container ul a {
     /* font-size: 1.15rem; 1336 */
-    font-size: 1.55rem;
+    font-size: 1.5rem;
     font-weight: 500;
-    margin: 0 1rem;
+    margin-right: 2rem;
     padding: 0.3rem 0.5rem;
     transition: all 0.2s ease-in-out;
 }
-.nav-right ul a:hover {
+.nav-container ul a:hover {
     color: #9747ff;
 }
 
@@ -69,6 +84,7 @@
     display: none;
     opacity: 0;
     transition: all 0.5s ease-in-out;
+    margin-top: -2rem;
 }
 
 .mobileNav li {
@@ -86,14 +102,14 @@
 @media screen and (max-width: 1822px) {
     .nav-container img {
         /* width: 190px; 1336px */
-        width: 240px;
+        width: 180px;
     }
     .purpleBtn {
-        padding: 1.15rem 2.9rem;
+        padding: 1.05rem 2.7rem;
         font-size: 1.35rem;
     }
-    .nav-right ul a {
-        font-size: 1.45rem;
+    .nav-container ul a {
+        font-size: 1.35rem;
     }
 }
 @media screen and (max-width: 1708px) {
@@ -105,7 +121,7 @@
         padding: 1.15rem 2.9rem;
         font-size: 1.25rem;
     }
-    .nav-right ul a {
+    .nav-container ul a {
         font-size: 1.31rem;
     }
 }
@@ -118,21 +134,25 @@
         padding: 1.05rem 2.6rem;
         font-size: 1.15rem;
     }
-    .nav-right ul a {
+    .nav-container ul a {
         font-size: 1.2rem;
     }
 }
 @media screen and (max-width: 1366px) {
+    .nav-container {
+        padding-top: 1rem;
+    }
     .nav-container img {
         /* width: 190px; 1336px */
-        width: 192px;
+        width: 143px;
     }
-    .purpleBtn {
-        padding: 1rem 2.35rem;
-        font-size: 1.05rem;
+    #navBtn .purpleBtn {
+        padding: 1.1rem 2.9rem;
+        font-size: 1rem;
     }
-    .nav-right ul a {
-        font-size: 1.05rem;
+    .nav-container ul a {
+        font-size: 0.98rem;
+        margin-right: 1rem;
     }
 }
 @media screen and (max-width: 1025px) {
@@ -145,7 +165,7 @@
     .purpleBtn {
         padding: 0.8rem 2rem;
     }
-    .nav-right a {
+    .nav-container ul a {
         font-size: 0.9rem;
     }
 }
@@ -170,7 +190,8 @@
         display: block;
         z-index: 99;
     }
-    #navbar {
+    #navbar,
+    #navBtn {
         display: none;
     }
     .mobileNav {
