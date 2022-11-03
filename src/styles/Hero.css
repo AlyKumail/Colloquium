@@ -1,17 +1,17 @@
 .hero-container {
-    min-height: 90vh;
+    max-height: 82vh;
     font-family: "Montserrat";
 }
 .hero-container h1 {
-    margin-top: 1.85rem;
+    margin-top: 2rem;
     /* font-size: 2.4rem; 1366 */
-    font-size: 4.15rem;
+    font-size: 3.9rem;
     margin-bottom: 2.5rem;
 
     width: 100%;
 }
 .hero-wrap {
-    min-height: 80vh;
+    max-height: 80vh;
 }
 .hero-left,
 .hero-right {
@@ -21,8 +21,8 @@
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 300;
-    font-size: 32px;
-    line-height: 41px;
+    font-size: 29.5px;
+    line-height: 39px;
     margin-bottom: 1.9rem;
     width: 66%;
     color: rgba(255, 255, 255, 0.5);
@@ -34,7 +34,7 @@
 .hero-wrap .purpleBtn {
     padding: 1.1rem 5.3rem;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 19.5px;
 }
 .animation {
     min-height: 60vh;
@@ -46,7 +46,7 @@
     margin: 4rem auto;
 }
 .social-media {
-    margin-top: 15px;
+    margin-top: 1rem;
     margin-bottom: 2.7rem;
 }
 .social-media img {
@@ -81,7 +81,16 @@
 }
 @media screen and (max-width: 1708px) {
     .hero-container h1 {
-        font-size: 3.5rem;
+        font-size: 3.25rem;
+    }
+    .hero-left p {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .hero-wrap .purpleBtn {
+        padding: 1rem 3.8rem !important;
+        font-weight: 400;
+        font-size: 16px;
     }
     .social-media img {
         width: 65px;
@@ -96,52 +105,62 @@
 }
 @media screen and (max-width: 1518px) {
     .hero-container h1 {
-        font-size: 3.05rem;
+        font-size: 2.9rem;
+        margin-bottom: 1.35rem;
     }
     .social-media img {
         width: 60px;
         height: 60px;
     }
     .hero-left p {
-        font-size: 23px;
-        line-height: 34px;
+        font-size: 21px;
+        line-height: 28px;
         margin-bottom: 1.9rem;
         width: 60%;
         color: rgba(255, 255, 255, 0.5);
     }
+    .hero-wrap .purpleBtn {
+        padding: 0.9rem 3.6rem !important;
+        font-weight: 400;
+        font-size: 15px;
+    }
     .social-media img {
         margin-right: 15px;
-        width: 47px;
-        height: 45px;
+        width: 45px;
+        height: 43px;
         margin-bottom: 3rem;
     }
 }
 @media screen and (max-width: 1366px) {
     .hero-container h1 {
         font-size: 2.6rem;
+        margin-top: 1rem;
     }
     .social-media img {
         width: 52px;
         height: 52px;
     }
     .hero-left p {
-        font-size: 20px;
-        line-height: 30px;
-
+        font-size: 19px;
+        line-height: 27px;
+        margin-bottom: 1.5rem;
         width: 60%;
         color: rgba(255, 255, 255, 0.5);
     }
     .hero-wrap .purpleBtn {
-        font-size: 14px;
+        font-size: 13px;
 
-        padding: 0.7rem 3.4rem;
+        padding: 0.7rem 3.2rem !important;
         font-weight: 400;
     }
     .social-media img {
         margin-right: 15px;
-        width: 44px;
-        height: 42px;
-        margin-bottom: 3rem;
+        width: 39px;
+        height: 37px;
+        margin-bottom: 4rem;
+    }
+    .social-media {
+        margin-top: 0rem !important;
     }
 }
 
@@ -153,10 +172,10 @@
 }
 @media screen and (max-width: 768px) {
     .hero-container {
-        min-height: 75vh;
+        max-height: 90vh;
     }
     .hero-wrap {
-        min-height: 80vh;
+        max-height: 90vh;
         flex-direction: column;
     }
     .hero-left,
@@ -178,18 +197,42 @@
     }
 }
 @media screen and (max-width: 450px) {
+    .hero-container h1 {
+        font-size: 2.2rem;
+        margin-top: 1rem;
+    }
+    .social-media img {
+        width: 52px;
+        height: 52px;
+    }
+    .hero-left p {
+        font-size: 17px;
+        line-height: 25px;
+        margin-bottom: 1.5rem;
+        width: 85%;
+        color: rgba(255, 255, 255, 0.5);
+    }
     .hero-container {
-        min-height: 70vh;
-        margin-bottom: 1rem;
+        min-height: 80vh;
+        margin-bottom: 8rem;
     }
     .animation img {
         width: 95%;
         margin: 2rem auto;
-        min-height: 35vh;
+        min-height: 25vh;
     }
     .animation {
-        min-height: 40vh;
+        min-height: 30vh;
         width: 100%;
+    }
+    .social-media {
+        margin-top: -1rem !important;
+    }
+    .social-media img {
+        margin-right: 3rem !important;
+        width: 36px;
+        height: 34px;
+        margin-bottom: 4rem;
     }
 }
 

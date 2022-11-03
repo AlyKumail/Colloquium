@@ -1,6 +1,6 @@
 .nav-container {
     min-height: 10vh;
-    padding-top: 2rem;
+    padding-top: 1rem;
 }
 .nav-container .container {
     position: relative;
@@ -115,27 +115,27 @@
 @media screen and (max-width: 1708px) {
     .nav-container img {
         /* width: 190px; 1336px */
-        width: 223px;
+        width: 190px;
     }
     .purpleBtn {
-        padding: 1.15rem 2.9rem;
+        padding: 1.4rem 3.6rem !important;
         font-size: 1.25rem;
     }
     .nav-container ul a {
-        font-size: 1.31rem;
+        font-size: 1.25rem;
     }
 }
 @media screen and (max-width: 1518px) {
     .nav-container img {
         /* width: 190px; 1336px */
-        width: 208px;
+        width: 170px;
     }
     .purpleBtn {
-        padding: 1.05rem 2.6rem;
-        font-size: 1.15rem;
+        padding: 1.15rem 2.8rem !important;
+        font-size: 1.1rem;
     }
     .nav-container ul a {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
 }
 @media screen and (max-width: 1366px) {
