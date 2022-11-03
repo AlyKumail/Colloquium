@@ -92,22 +92,26 @@
 @media screen and (max-width: 1822px) {
     .daoDetail-item-left p,
     .daoDetail-item-right-rev p {
-        font-size: 1.65rem;
+        font-size: 1.7rem;
 
-        line-height: 38px;
+        line-height: 34px;
     }
     .daoDetail-item-left h3,
     .daoDetail-item-right-rev h3 {
-        font-size: 2.2rem;
+        font-size: 2rem !important;
     }
     .greenBtn {
         padding: 1.5rem 6rem;
         font-size: 1.9rem;
     }
-    .thedao {
-        width: 45% !important;
-
-        height: 470px;
+    .daoDetail-item img {
+        max-width: 100%;
+    }
+    .daoDetail-item-right {
+        padding: 0 3.5rem;
+    }
+    .globe {
+        margin-left: -1.7rem !important;
     }
 }
 @media screen and (max-width: 1708px) {
@@ -160,13 +164,9 @@
         padding: 1.4rem 5rem;
         font-size: 1.3rem;
     }
-    .thedao {
-        width: 45% !important;
 
-        height: 430px;
-    }
     .daoDetail-item img {
-        width: 80%;
+        width: 100%;
     }
     .globe {
         width: 100% !important;
@@ -250,5 +250,15 @@
     }
     .daoDetail-container {
         margin: 6rem 0;
+    }
+    .daoDetail-item img {
+        max-width: 100%;
+    }
+    .daoDetail-item-right {
+        padding: 0;
+    }
+    .globe {
+        margin-left: -0rem !important;
+        margin-top: 0rem !important;
     }
 }

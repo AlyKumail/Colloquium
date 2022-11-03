@@ -19,10 +19,10 @@
 
 @media screen and (max-width: 1822px) {
     .tokenInfo-item h3 {
-        font-size: 1.8rem;
+        font-size: 1.4rem;
     }
     .tokenInfo-item h2 {
-        font-size: 2.7rem;
+        font-size: 2.4rem;
     }
 }
 @media screen and (max-width: 1708px) {
@@ -43,10 +43,10 @@
 }
 @media screen and (max-width: 1366px) {
     .tokenInfo-item h3 {
-        font-size: 1.2rem;
+        font-size: 1.15rem;
     }
     .tokenInfo-item h2 {
-        font-size: 1.9rem;
+        font-size: 1.7rem;
     }
 }
 

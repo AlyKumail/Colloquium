@@ -96,7 +96,8 @@
         height: 130px;
     }
     .footer-left h2 {
-        font-size: 2.6rem;
+        font-size: 2.4rem;
+        margin-bottom: 2rem;
     }
     .footer-description {
         font-size: 1.25rem;
