@@ -5,7 +5,7 @@ import twitter from "../images/twitterw.png";
 
 import telegram from "../images/telegramw.png";
 
-import animation from "../images/animation.png";
+import animation from "../images/hero-gif.gif";
 
 const Hero = () => {
     return (

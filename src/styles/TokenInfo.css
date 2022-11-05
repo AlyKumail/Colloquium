@@ -9,12 +9,12 @@
 }
 .tokenInfo-item h3 {
     color: rgba(255, 255, 255, 0.7);
-    font-size: 2.1rem;
+    font-size: 1.6rem;
     font-weight: 400;
     margin-bottom: 5px;
 }
 .tokenInfo-item h2 {
-    font-size: 3.2rem;
+    font-size: 2.8rem;
 }
 
 @media screen and (max-width: 1822px) {
@@ -27,18 +27,18 @@
 }
 @media screen and (max-width: 1708px) {
     .tokenInfo-item h3 {
-        font-size: 1.7rem;
+        font-size: 1.3rem;
     }
     .tokenInfo-item h2 {
-        font-size: 2.6rem;
+        font-size: 2.3rem;
     }
 }
 @media screen and (max-width: 1518px) {
     .tokenInfo-item h3 {
-        font-size: 1.4rem;
+        font-size: 1.1rem;
     }
     .tokenInfo-item h2 {
-        font-size: 2.35rem;
+        font-size: 2.15rem;
     }
 }
 @media screen and (max-width: 1366px) {
