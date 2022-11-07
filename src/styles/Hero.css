@@ -1,5 +1,5 @@
 .hero-container {
-    max-height: 82vh;
+    min-height: 82vh;
     font-family: "Montserrat";
 }
 .hero-container h1 {
@@ -35,15 +35,18 @@
     padding: 1.1rem 5.3rem;
     font-weight: 400;
     font-size: 19.5px;
+    margin-bottom: 2rem;
 }
 .animation {
-    min-height: 60vh;
+    min-height: 60%;
+    /* border: 1px solid red; */
     width: 100%;
 }
 .animation img {
     display: block;
-    width: 100%;
-    margin: 4rem auto;
+    width: 630px;
+    margin: 0rem auto;
+    height: 550px;
 }
 .social-media {
     margin-top: 1rem;
@@ -130,6 +133,12 @@
         height: 43px;
         margin-bottom: 3rem;
     }
+    .animation img {
+        display: block;
+        width: 530px;
+        margin: 0rem auto;
+        height: 450px;
+    }
 }
 @media screen and (max-width: 1366px) {
     .hero-container h1 {
@@ -162,6 +171,12 @@
     .social-media {
         margin-top: 0rem !important;
     }
+    .animation img {
+        display: block;
+        width: 470px;
+        margin: 0rem auto;
+        height: 430px;
+    }
 }
 
 @media screen and (max-width: 1025px) {
@@ -189,7 +204,7 @@
     .animation img {
         width: 95%;
         margin: 2rem auto;
-        min-height: 48vh;
+        height: 40vh;
     }
     .animation {
         min-height: 40vh;
@@ -197,6 +212,9 @@
     }
 }
 @media screen and (max-width: 450px) {
+    .hero-container {
+        margin-top: 1rem;
+    }
     .hero-container h1 {
         font-size: 2.2rem;
         margin-top: 1rem;
@@ -217,16 +235,18 @@
         margin-bottom: 8rem;
     }
     .animation img {
-        width: 95%;
-        margin: 2rem auto;
-        min-height: 25vh;
+        width: 400px;
+        margin: 0rem auto;
+        margin-bottom: 4rem;
+        margin-top: -1.5rem;
+        height: 250px !important;
     }
     .animation {
         min-height: 30vh;
         width: 100%;
     }
     .social-media {
-        margin-top: -1rem !important;
+        margin-top: 0.5rem !important;
     }
     .social-media img {
         margin-right: 3rem !important;

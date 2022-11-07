@@ -5,7 +5,7 @@ import twitter from "../images/twitterw.png";
 
 import telegram from "../images/telegramw.png";
 
-import animation from "../images/herogif2.gif";
+import animation from "../images/herogif3.gif";
 import animationVid from "../images/herogif.mov";
 
 const Hero = () => {
@@ -31,9 +31,9 @@ const Hero = () => {
                     </div>
                     <div className="hero-right">
                         <div className="animation">
-                            {/* <img src={animation} alt="" /> */}
+                            <img src={animation} alt="" />
 
-                            <video
+                            {/* <video
                                 ref={vid}
                                 width="620"
                                 height="640"
@@ -44,7 +44,7 @@ const Hero = () => {
                                 controls
                             >
                                 <source src={animationVid} type="video/mp4" />
-                            </video>
+                            </video> */}
                         </div>
                     </div>
                 </div>
