@@ -1,13 +1,19 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import "../styles/Hero.css";
 
 import twitter from "../images/twitterw.png";
 
 import telegram from "../images/telegramw.png";
 
-import animation from "../images/hero-gif.gif";
+import animation from "../images/herogif2.gif";
+import animationVid from "../images/herogif.mov";
 
 const Hero = () => {
+    const vid = useRef();
+    useEffect(() => {
+        console.log(vid.current);
+        // vid.current.play();
+    }, []);
     return (
         <div className="hero-container">
             <div className="container">
@@ -25,7 +31,20 @@ const Hero = () => {
                     </div>
                     <div className="hero-right">
                         <div className="animation">
-                            <img src={animation} alt="" />
+                            {/* <img src={animation} alt="" /> */}
+
+                            <video
+                                ref={vid}
+                                width="620"
+                                height="640"
+                                playsInline
+                                autoPlay
+                                muted
+                                loop
+                                controls
+                            >
+                                <source src={animationVid} type="video/mp4" />
+                            </video>
                         </div>
                     </div>
                 </div>
