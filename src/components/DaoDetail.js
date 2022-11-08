@@ -56,7 +56,10 @@ const DaoDetail = () => {
                             must be held to enter the DAO, so even smaller
                             holders will be rewarded.
                         </p>
-                        <a href="#" className="greenBtn">
+                        <a
+                            href="https://t.me/colloquiumdao"
+                            className="greenBtn"
+                        >
                             Join Telegram
                         </a>
                     </div>

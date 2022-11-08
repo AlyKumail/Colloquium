@@ -35,21 +35,24 @@
     padding: 1.1rem 5.3rem;
     font-weight: 400;
     font-size: 19.5px;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
 }
 .animation {
-    min-height: 60%;
+    min-height: 80%;
     /* border: 1px solid red; */
     width: 100%;
 }
 .animation img {
     display: block;
-    width: 630px;
+    width: 740px;
     margin: 0rem auto;
-    height: 550px;
+    height: 700px;
+    /* width: 630px;
+    margin: 0rem auto;
+    height: 550px; */
 }
 .social-media {
-    margin-top: 1rem;
+    margin-top: 0rem;
     margin-bottom: 2.7rem;
 }
 .social-media img {

@@ -9,7 +9,7 @@ const SomeDetail = () => {
             <div className="container">
                 <div className="someDetail-header flex-between-center">
                     <h2>Some Details</h2>
-                    <a href="#" className="grayBtn ">
+                    <a href="https://t.me/colloquiumdao" className="grayBtn ">
                         <img src={telegram} alt="" />
                         <span>OUR TELEGRAM</span>
                     </a>

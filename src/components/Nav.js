@@ -34,7 +34,7 @@ const Nav = () => {
                         <a href="#">Social</a>
                     </li>
                 </ul>
-                <a href="#" className="purpleBtn">
+                <a href="https://t.me/colloquiumdao" className="purpleBtn">
                     Join Telegram
                 </a>
             </div>
@@ -62,7 +62,7 @@ const Nav = () => {
                     </li>
                 </ul>
                 <div id="navBtn">
-                    <a href="#" className="purpleBtn">
+                    <a href="https://t.me/colloquiumdao" className="purpleBtn">
                         Join Telegram
                     </a>
                 </div>
