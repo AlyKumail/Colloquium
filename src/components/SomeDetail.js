@@ -5,7 +5,7 @@ import someDetailImg from "../images/someDetail-item.png";
 
 const SomeDetail = () => {
     return (
-        <div className="someDetail-container">
+        <div className="someDetail-container" id="about">
             <div className="container">
                 <div className="someDetail-header flex-between-center">
                     <h2>Some Details</h2>

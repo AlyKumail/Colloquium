@@ -3,6 +3,10 @@
     --purple: #9747ff;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -14,7 +18,19 @@ body {
     color: #fff;
     font-family: "Inter";
 }
+body::-webkit-scrollbar {
+    width: 0.4em;
+}
 
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px #221d36;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #3a4862;
+    outline: 1px solid #3a4862;
+    border-radius: 60px;
+}
 a {
     text-decoration: none;
     color: #fff;
@@ -55,4 +71,7 @@ img {
 }
 .social-media img:hover {
     opacity: 0.7;
+}
+#tokenomics {
+    scroll-behavior: smooth;
 }

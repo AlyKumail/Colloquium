@@ -10,7 +10,7 @@ import telegram from "../images/telegramw.png";
 
 const Footer = () => {
     return (
-        <div className="footer-container">
+        <div className="footer-container" id="footerPart">
             <div className="container flex-between-center">
                 <div className="footer-left">
                     <h2>

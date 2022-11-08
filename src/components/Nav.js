@@ -25,13 +25,13 @@ const Nav = () => {
 
                 <ul className="">
                     <li>
-                        <a href="#">About</a>
+                        <a href="#about">About</a>
                     </li>
                     <li>
-                        <a href="#">Tokenomics</a>
+                        <a href="#tokenomics">Tokenomics</a>
                     </li>
                     <li>
-                        <a href="#">Social</a>
+                        <a href="#footerPart">Social</a>
                     </li>
                 </ul>
                 <a href="https://t.me/colloquiumdao" className="purpleBtn">
@@ -52,13 +52,13 @@ const Nav = () => {
 
                 <ul id="navbar" className="flex-between-center">
                     <li>
-                        <a href="#">About</a>
+                        <a href="#about">About</a>
                     </li>
                     <li>
-                        <a href="#">Tokenomics</a>
+                        <a href="#tokenomics">Tokenomics</a>
                     </li>
                     <li>
-                        <a href="#">Social</a>
+                        <a href="#footerPart">Social</a>
                     </li>
                 </ul>
                 <div id="navBtn">

@@ -229,6 +229,13 @@
 }
 
 @media screen and (max-width: 450px) {
+    .daoDetail-item {
+        flex-direction: column-reverse;
+        margin: 2rem auto;
+    }
+    .daoDetail-item-rev {
+        flex-direction: column;
+    }
     .thedao img {
         height: 210px !important;
         min-width: 10% !important;
@@ -247,18 +254,24 @@
     .ringImg {
         padding: 0 1rem;
         height: 210px !important;
+        margin-top: 1rem !important;
+
+        margin-bottom: 2.5rem !important;
     }
     .daoDetail-container {
         margin: 6rem 0;
     }
     .daoDetail-item img {
         max-width: 100%;
+        margin: 0 auto;
+        margin-top: -3rem;
+        margin-bottom: 1.5rem;
     }
     .daoDetail-item-right {
         padding: 1rem 2rem;
     }
     .globe {
         margin-left: -0rem !important;
-        margin-top: 0rem !important;
+        margin-top: -2rem !important;
     }
 }

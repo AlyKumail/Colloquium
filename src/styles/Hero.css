@@ -3,7 +3,7 @@
     font-family: "Montserrat";
 }
 .hero-container h1 {
-    margin-top: 2rem;
+    margin-top: 3rem;
     /* font-size: 2.4rem; 1366 */
     font-size: 3.9rem;
     margin-bottom: 2.5rem;
@@ -44,9 +44,9 @@
 }
 .animation img {
     display: block;
-    width: 740px;
+    width: 790px;
     margin: 0rem auto;
-    height: 700px;
+    height: 715px;
     /* width: 630px;
     margin: 0rem auto;
     height: 550px; */
@@ -238,6 +238,7 @@
         margin-bottom: 8rem;
     }
     .animation img {
+        display: none;
         width: 400px;
         margin: 0rem auto;
         margin-bottom: 4rem;
@@ -245,6 +246,7 @@
         height: 250px !important;
     }
     .animation {
+        background: url("../images/herogif3.png") no-repeat center center/cover;
         min-height: 30vh;
         width: 100%;
     }

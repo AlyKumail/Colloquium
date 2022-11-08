@@ -4,7 +4,7 @@ import tokenomics from "../images/tokenomics.png";
 
 const Tokenomics = () => {
     return (
-        <div className="tokenomics-container">
+        <div className="tokenomics-container" id="tokenomics">
             <div className="container flex-between-center">
                 <div className="tokenomics-left">
                     <h2>TOKENOMICS</h2>
