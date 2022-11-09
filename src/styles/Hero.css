@@ -54,6 +54,7 @@
 .social-media {
     margin-top: 2rem;
     margin-bottom: 2.7rem;
+    margin-left: 2.5px;
 }
 .social-media img {
     margin-right: 15px;
@@ -260,6 +261,7 @@
     }
     .social-media {
         margin-top: 0.5rem !important;
+        margin-left: 13px;
     }
     .social-media img {
         margin-right: 3rem !important;
